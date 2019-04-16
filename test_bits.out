@@ -1,0 +1,36 @@
+circuit0
+this is inv2: 
+x((QuantumRegister(3, 'q0'), 2))
+cx((QuantumRegister(3, 'q0'), 2), (QuantumRegister(9, 'q2'), 1)) (dirty)
+Executing: 
+cx((QuantumRegister(3, 'q0'), 0), (QuantumRegister(9, 'q2'), 0))
+cx((QuantumRegister(3, 'q0'), 1), (QuantumRegister(9, 'q2'), 0))
+cx((QuantumRegister(3, 'q0'), 1), (QuantumRegister(9, 'q2'), 1))
+x((QuantumRegister(3, 'q0'), 2))
+cx((QuantumRegister(3, 'q0'), 2), (QuantumRegister(9, 'q2'), 1))
+x((QuantumRegister(3, 'q0'), 2))
+ccx((QuantumRegister(9, 'q2'), 0), (QuantumRegister(9, 'q2'), 1), (QuantumRegister(1, 'q1'), 0)) (dirty)
+x((QuantumRegister(3, 'q0'), 2))
+cx((QuantumRegister(3, 'q0'), 2), (QuantumRegister(9, 'q2'), 1))
+x((QuantumRegister(3, 'q0'), 2))
+cx((QuantumRegister(3, 'q0'), 1), (QuantumRegister(9, 'q2'), 1))
+cx((QuantumRegister(3, 'q0'), 1), (QuantumRegister(9, 'q2'), 0))
+cx((QuantumRegister(3, 'q0'), 0), (QuantumRegister(9, 'q2'), 0))
+this is inv2: 
+x((QuantumRegister(3, 'q0'), 2))
+cx((QuantumRegister(3, 'q0'), 2), (QuantumRegister(9, 'q2'), 1)) (dirty)
+Executing: 
+cx((QuantumRegister(3, 'q0'), 0), (QuantumRegister(9, 'q2'), 0))
+cx((QuantumRegister(3, 'q0'), 1), (QuantumRegister(9, 'q2'), 0))
+cx((QuantumRegister(3, 'q0'), 1), (QuantumRegister(9, 'q2'), 1))
+x((QuantumRegister(3, 'q0'), 2))
+cx((QuantumRegister(3, 'q0'), 2), (QuantumRegister(9, 'q2'), 1))
+x((QuantumRegister(3, 'q0'), 2))
+ccx((QuantumRegister(9, 'q2'), 0), (QuantumRegister(9, 'q2'), 1), (QuantumRegister(1, 'q1'), 0)) (dirty)
+x((QuantumRegister(3, 'q0'), 2))
+cx((QuantumRegister(3, 'q0'), 2), (QuantumRegister(9, 'q2'), 1))
+x((QuantumRegister(3, 'q0'), 2))
+cx((QuantumRegister(3, 'q0'), 1), (QuantumRegister(9, 'q2'), 1))
+cx((QuantumRegister(3, 'q0'), 1), (QuantumRegister(9, 'q2'), 0))
+cx((QuantumRegister(3, 'q0'), 0), (QuantumRegister(9, 'q2'), 0))
+{'001': 54, '110': 46}
